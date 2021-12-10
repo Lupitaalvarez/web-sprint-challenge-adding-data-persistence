@@ -116,6 +116,12 @@ These kinds of databases are relational because relation is a mathematical idea 
 
 2. Why do tables need a Primary Key?
 
-- 
+- A primary key is the identifier of a piece of data, everything else are just attributes to that number. If you ever want to reference that data from another table you have to use that Primary Key as a Foreign Key in the other table
+
 3. What is the name given to a table column that references the Primary Key on another table?
+
+- Foreign Key => They are a type of table field used for creating links between tables.
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+
+- We need to introduce an intermediary table that holds foreign keys that reference the primary key on the related tables to model this relationship.
